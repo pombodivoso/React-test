@@ -1,0 +1,42 @@
+Joyce Nascimento Vasco
+
+*1 - Em que situações você usaria o arquivo .gitignore? Cite exemplos práticos e
+explique a utilidade deste arquivo.*
+Resposta: O .gitignore é usado para, na hora de subir o seu código para o GitHub, alguns arquivos/pastas não sejam enviados juntos. Isso serve principalmente para 
+arquivos muito pesados, para que eles não sobrecarreguem o código sem necessidade na hora de ser baixado. As pastas de node, csproj e obj, por exemplo, entram no .gitignore.
+
+*2 - O que é um pull request no GitHub? Qual a importância dele para projetos
+colaborativos?*
+Resposta: Ele envia uma solicitação para juntar branches, por exemplo, juntar a sua branch com a branch principal do projeto. Isso traz muita segurança, praticidade e 
+facilidade para trabalhos em grupo, assim, o código não será diretamente afetado por todos os membros, mas assim que tudo estiver revisado e analisado, a colaboração de todos 
+pode se juntar sem riscos de afetar o projeto permanentemente.
+
+*3 - Qual a diferença entre git commit e git push?*
+Resposta: O git commit engloba os arquivos e a mensagem que serão enviados ao GitHub, enquanto o git push vai fazer, de fato, a ação de enviar o código. Pode-se dizer que o 
+git commit vai empacotar tudo que o git push irá entregar ao repositório.
+
+*4 – O que são conventional commits e conventional branches? Para qual finalidade
+eles seriam utilizados e resolveriam qual tipo de problema?*
+Resposta: São nomes/mensagens padrões de commits e branches, que podem ser enviados na hora de fazer push/criar uma branch no projeto. Eles são utilizados para padronizar os modelos
+de ambos, o que facilita muito na hora de organizar o projeto, analisar o que foi feito em cada etapa e para juntar as branches, pois com um padrão de escrita, rapidamente é 
+possível descobrir o que foi feito e como resolver.
+
+*5 - Você clonou um repositório remoto, irá criar uma branch chamada
+feature/login para fazer alguns commits. Escreva os comandos e passo a passo
+necessários para:
+*a) Enviar essa branch para o repositório remoto.*
+Resposta: 
+git branch feature-login 
+git add . 
+git commit -m "Mensagem que descreve o que foi feito" 
+git push
+
+*b) Criar um pull request no GitHub.*
+Resposta: 
+git branch feature-login
+git add . 
+git commit -m "Mensagem que descreve o que foi feito" 
+git push
+*Abrir o repositório no GitHub*
+*Abrir a aba de Pull Request*
+*Fazer a solicitação*

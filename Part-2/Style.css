@@ -1,0 +1,36 @@
+*{
+    background-color: aliceblue;
+}
+.container{
+    height: 100vh;
+}
+.l1{
+    display: flex;
+    height: 40%;
+    justify-content: space-between;
+}
+.l2{
+    display: flex;
+    height: 30%;
+    justify-content: center;
+}
+.blueSquare{
+    background-color: rgb(44, 131, 231);
+    height: 60%;
+    width: 60%;
+}
+.yellowSquare{
+    background-color: rgb(247, 237, 96);
+    height: 60%;
+    width: 60%;
+}
+.blueLittle{
+    background-color: rgb(44, 131, 231);
+    height: 80px;
+    width: 80px;
+}
+.yellowLittle{
+    background-color: rgb(247, 237, 96);
+    height: 80px;
+    width: 80px;
+}
