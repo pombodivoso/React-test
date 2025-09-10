@@ -24,11 +24,14 @@
     background-color: rgb(44, 131, 231);
     height: 100%;
     width: 60%;
+    align-content: center;
 }
 .yellowSquare{
     background-color: rgb(247, 237, 96);
     height: 100%;
     width: 60%;
+    align-content: center;
+    justify-items: end;
 }
 .blueLittle{
     background-color: rgb(44, 131, 231);
@@ -39,9 +42,9 @@
     background-color: rgb(247, 237, 96);
     height: 80px;
     width: 80px;
+    align-content: center;
 }
 .columns{
-    align-items: center;
-    justify-content:space-between;
-    flex-direction: column;
+    justify-content: space-between;
+    flex-direction: row;
 }
