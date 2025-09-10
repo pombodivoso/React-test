@@ -11,11 +11,12 @@ function App() {
   return (
     <>
     { visibility &&
-      <h2 O TEXTO AGORA ESTÁ VISÍVEL/>
+      <h2> BOOO!  </h2>
     }
 
     <button onClick={() => {setVisibility(visibility == true? false : true)}}>Alterar a visibilidade</button>
-      <h1>Parte 4 - React</h1>
+
+      <h1 class="">Parte 4 - React</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           <h2>+</h2>
@@ -25,7 +26,7 @@ function App() {
         </button>
         <h2> Contagem atual {count}</h2>
       </div>
-      <input type="text" onChange={(e) => setText(e.target.value)} placeholder='Digite aqui: ' />
+      <input type="text" class="inputs" onChange={(e) => setText(e.target.value)} placeholder='Digite e veja o texto na tela: ' />
       <h2>{text}</h2>
     </>
   )
