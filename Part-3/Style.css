@@ -1,0 +1,9 @@
+*{
+    background-color: gray;
+}
+.inputs{
+    background-color: aliceblue;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+}

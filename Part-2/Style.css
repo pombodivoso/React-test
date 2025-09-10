@@ -6,22 +6,28 @@
 }
 .l1{
     display: flex;
-    height: 40%;
-    justify-content: space-between;
+    height: 25%;
+    justify-content: center;
 }
 .l2{
     display: flex;
     height: 30%;
     justify-content: center;
 }
+.l3{
+    display: flex;
+    height: 25%;
+    justify-content: center;
+    align-items: end;
+}
 .blueSquare{
     background-color: rgb(44, 131, 231);
-    height: 60%;
+    height: 100%;
     width: 60%;
 }
 .yellowSquare{
     background-color: rgb(247, 237, 96);
-    height: 60%;
+    height: 100%;
     width: 60%;
 }
 .blueLittle{
@@ -33,4 +39,9 @@
     background-color: rgb(247, 237, 96);
     height: 80px;
     width: 80px;
+}
+.columns{
+    align-items: center;
+    justify-content:space-between;
+    flex-direction: column;
 }
